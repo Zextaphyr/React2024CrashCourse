@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap');body{
   background-color: #343640;
 }
+*{
+  box-sizing: border-box;
+}
 body{
   font-family: "Edu AU VIC WA NT Pre", cursive;
   font-optical-sizing: auto;

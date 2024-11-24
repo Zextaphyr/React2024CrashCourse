@@ -14,7 +14,17 @@ export default function ReactFunFacts () {
 }
 
 const Header = () => <header>
-    <img src={ReactLogo} id="ReactLogo"/>
+      <div className="title">
+        <img src={ReactLogo} id="ReactLogo"/>
+        <span>React Facts</span>
+      </div>
+      <nav>
+        <ul>
+          <li>Pricing</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
     </header>
 
 const MainContent = () => <main>
@@ -23,7 +33,6 @@ const MainContent = () => <main>
         <li>Was first released in 2013</li>
         <li>Criado por Jordan Walke</li>
         <li> Na verdade pagou minha viagem para europa haha</li>
-
       </ol>
     </main>   
  
