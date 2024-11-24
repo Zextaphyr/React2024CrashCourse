@@ -1,5 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap');body{
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
   background-color: #343640;
 }
 *{
